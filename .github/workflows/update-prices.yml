@@ -3,9 +3,8 @@ name: Update prices
 on:
   schedule:
     # Every 30 min during BSE hours (09:00-16:00 IST = 03:30-10:30 UTC), Mon-Fri.
-    # GitHub may delay scheduled runs by a few minutes under load.
     - cron: "0,30 3-10 * * 1-5"
-  workflow_dispatch: {}   # lets you run it manually from the Actions tab
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -29,5 +28,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add prices.json
-          git commit -m "Update prices" || echo "No price changes"
-          git push
+          git commit -m "Update prices" || { echo "No price changes"; exit 0; }
+          # rebase onto any commits made while we were fetching, then push (retry once)
+          git pull --rebase --autostash origin main || true
+          git push || (git pull --rebase --autostash origin main && git push)
