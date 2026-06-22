@@ -2,6 +2,7 @@
   {
     "code": "524208",
     "name": "Aarti Indust",
+    "sym": "",
     "qty": 2250,
     "avgCost": 613.0149,
     "sells": []
@@ -9,6 +10,7 @@
   {
     "code": "500002",
     "name": "Abb Ltd Indi",
+    "sym": "",
     "qty": 420,
     "avgCost": 6393.6295,
     "sells": []
@@ -16,6 +18,7 @@
   {
     "code": "535755",
     "name": "Abfrl",
+    "sym": "ABFRL",
     "qty": 5000,
     "avgCost": 89.69,
     "sells": []
@@ -23,6 +26,7 @@
   {
     "code": "500410",
     "name": "Acc",
+    "sym": "ACC",
     "qty": 300,
     "avgCost": 1820.9987,
     "sells": []
@@ -30,6 +34,7 @@
   {
     "code": "532921",
     "name": "Adaniports",
+    "sym": "ADANIPORTS",
     "qty": 50,
     "avgCost": 595.8,
     "sells": []
@@ -37,6 +42,7 @@
   {
     "code": "544446",
     "name": "Adventhtl",
+    "sym": "ADVENTHTL",
     "qty": 710,
     "avgCost": 0.0001,
     "sells": []
@@ -44,6 +50,7 @@
   {
     "code": "544280",
     "name": "Afcons",
+    "sym": "AFCONS",
     "qty": 400,
     "avgCost": 561.0463,
     "sells": []
@@ -51,6 +58,7 @@
   {
     "code": "544356",
     "name": "Ajaxengg",
+    "sym": "AJAXENGG",
     "qty": 2200,
     "avgCost": 563.0095,
     "sells": []
@@ -58,6 +66,7 @@
   {
     "code": "513349",
     "name": "Ajmera",
+    "sym": "AJMERA",
     "qty": 9380,
     "avgCost": 89.5584,
     "sells": []
@@ -65,6 +74,7 @@
   {
     "code": "500710",
     "name": "Akzoindia",
+    "sym": "AKZOINDIA",
     "qty": 100,
     "avgCost": 3125.5,
     "sells": []
@@ -72,6 +82,7 @@
   {
     "code": "506235",
     "name": "Alembic Limi",
+    "sym": "",
     "qty": 1158,
     "avgCost": 158.4486,
     "sells": []
@@ -79,6 +90,7 @@
   {
     "code": "543322",
     "name": "Alivus",
+    "sym": "ALIVUS",
     "qty": 700,
     "avgCost": 706.5903,
     "sells": [
@@ -92,6 +104,7 @@
   {
     "code": "31003",
     "name": "Allcarglob",
+    "sym": "ALLCARGLOB",
     "qty": 3000,
     "avgCost": 0.0001,
     "sells": []
@@ -99,6 +112,7 @@
   {
     "code": "532749",
     "name": "Allcargo",
+    "sym": "ALLCARGO",
     "qty": 22845,
     "avgCost": 9.3201,
     "sells": []
@@ -106,6 +120,7 @@
   {
     "code": "500425",
     "name": "Ambujacem",
+    "sym": "AMBUJACEM",
     "qty": 1000,
     "avgCost": 599.5,
     "sells": []
@@ -113,6 +128,7 @@
   {
     "code": "530075",
     "name": "Antelopus",
+    "sym": "ANTELOPUS",
     "qty": 3957,
     "avgCost": 538.8163,
     "sells": []
@@ -120,6 +136,7 @@
   {
     "code": "542460",
     "name": "Anup",
+    "sym": "ANUP",
     "qty": 100,
     "avgCost": 3001.093,
     "sells": []
@@ -127,6 +144,7 @@
   {
     "code": "532259",
     "name": "Apar Indus",
+    "sym": "",
     "qty": 155,
     "avgCost": 7227.8589,
     "sells": []
@@ -134,6 +152,7 @@
   {
     "code": "508869",
     "name": "Apollo Hospi",
+    "sym": "",
     "qty": 500,
     "avgCost": 4076.7938,
     "sells": []
@@ -141,6 +160,7 @@
   {
     "code": "500008",
     "name": "Are&M",
+    "sym": "ARE&M",
     "qty": 900,
     "avgCost": 909.0,
     "sells": []
@@ -148,6 +168,7 @@
   {
     "code": "531823",
     "name": "Arvindrem",
+    "sym": "ARVINDREM",
     "qty": 500,
     "avgCost": 37.35,
     "sells": []
@@ -155,6 +176,7 @@
   {
     "code": "514286",
     "name": "Ashima Ltd",
+    "sym": "",
     "qty": 9721,
     "avgCost": 41.2211,
     "sells": []
@@ -162,6 +184,7 @@
   {
     "code": "533138",
     "name": "Astec",
+    "sym": "ASTEC",
     "qty": 4275,
     "avgCost": 941.3279,
     "sells": []
@@ -169,6 +192,7 @@
   {
     "code": "532493",
     "name": "Astramicro L",
+    "sym": "",
     "qty": 250,
     "avgCost": 901.5,
     "sells": []
@@ -176,6 +200,7 @@
   {
     "code": "505010",
     "name": "Autoaxles",
+    "sym": "AUTOAXLES",
     "qty": 1266,
     "avgCost": 1300.0077,
     "sells": []
@@ -183,6 +208,7 @@
   {
     "code": "532406",
     "name": "Avantel",
+    "sym": "AVANTEL",
     "qty": 2000,
     "avgCost": 136.2965,
     "sells": []
@@ -190,6 +216,7 @@
   {
     "code": "543254",
     "name": "Awhcl",
+    "sym": "AWHCL",
     "qty": 1400,
     "avgCost": 478.3892,
     "sells": []
@@ -197,6 +224,7 @@
   {
     "code": "543458",
     "name": "Awl",
+    "sym": "AWL",
     "qty": 500,
     "avgCost": 670.9862,
     "sells": []
@@ -204,6 +232,7 @@
   {
     "code": "539872",
     "name": "Bajajhcare",
+    "sym": "BAJAJHCARE",
     "qty": 1900,
     "avgCost": 562.4531,
     "sells": []
@@ -211,6 +240,7 @@
   {
     "code": "500034",
     "name": "Bajfinance",
+    "sym": "BAJFINANCE",
     "qty": 16400,
     "avgCost": 185.6672,
     "sells": []
@@ -218,6 +248,7 @@
   {
     "code": "541153",
     "name": "Bandhanbnk",
+    "sym": "BANDHANBNK",
     "qty": 2075,
     "avgCost": 193.0674,
     "sells": [
@@ -231,6 +262,7 @@
   {
     "code": "532134",
     "name": "Bankbaroda",
+    "sym": "BANKBARODA",
     "qty": 2250,
     "avgCost": 110.1798,
     "sells": []
@@ -238,6 +270,7 @@
   {
     "code": "506285",
     "name": "Bayercrop",
+    "sym": "BAYERCROP",
     "qty": 200,
     "avgCost": 5000.0,
     "sells": []
@@ -245,6 +278,7 @@
   {
     "code": "544678",
     "name": "Bharatcoal",
+    "sym": "BHARATCOAL",
     "qty": 10000,
     "avgCost": 40.94,
     "sells": []
@@ -252,6 +286,7 @@
   {
     "code": "532454",
     "name": "Bharti Airte",
+    "sym": "",
     "qty": 1350,
     "avgCost": 1196.1476,
     "sells": []
@@ -259,6 +294,7 @@
   {
     "code": "532719",
     "name": "Blkashyap",
+    "sym": "BLKASHYAP",
     "qty": 48135,
     "avgCost": 27.2601,
     "sells": []
@@ -266,6 +302,7 @@
   {
     "code": "310005",
     "name": "Bluehope",
+    "sym": "BLUEHOPE",
     "qty": 1,
     "avgCost": 0.0,
     "sells": []
@@ -273,6 +310,7 @@
   {
     "code": "544009",
     "name": "Bluejet",
+    "sym": "BLUEJET",
     "qty": 1250,
     "avgCost": 679.41,
     "sells": []
@@ -280,6 +318,7 @@
   {
     "code": "500530",
     "name": "Boschltd",
+    "sym": "BOSCHLTD",
     "qty": 130,
     "avgCost": 30144.9084,
     "sells": []
@@ -287,6 +326,7 @@
   {
     "code": "590000",
     "name": "Bse",
+    "sym": "BSE",
     "qty": 1800,
     "avgCost": 28.1251,
     "sells": []
@@ -294,6 +334,7 @@
   {
     "code": "532400",
     "name": "Bsoft",
+    "sym": "BSOFT",
     "qty": 1000,
     "avgCost": 507.4,
     "sells": []
@@ -301,6 +342,7 @@
   {
     "code": "532834",
     "name": "Camlinfin",
+    "sym": "CAMLINFIN",
     "qty": 4450,
     "avgCost": 162.6044,
     "sells": []
@@ -308,6 +350,7 @@
   {
     "code": "532885",
     "name": "Centralbk",
+    "sym": "CENTRALBK",
     "qty": 9900,
     "avgCost": 57.6031,
     "sells": []
@@ -315,6 +358,7 @@
   {
     "code": "500093",
     "name": "Cgpower",
+    "sym": "CGPOWER",
     "qty": 6350,
     "avgCost": 72.2019,
     "sells": []
@@ -322,6 +366,7 @@
   {
     "code": "543318",
     "name": "Clean",
+    "sym": "CLEAN",
     "qty": 150,
     "avgCost": 1369.3833,
     "sells": []
@@ -329,6 +374,7 @@
   {
     "code": "539436",
     "name": "Coffeeday",
+    "sym": "COFFEEDAY",
     "qty": 2000,
     "avgCost": 41.25,
     "sells": []
@@ -336,6 +382,7 @@
   {
     "code": "531344",
     "name": "Container Co",
+    "sym": "",
     "qty": 678,
     "avgCost": 613.212,
     "sells": []
@@ -343,6 +390,7 @@
   {
     "code": "500092",
     "name": "Crisil Ltd",
+    "sym": "",
     "qty": 80,
     "avgCost": 4830.6706,
     "sells": []
@@ -350,6 +398,7 @@
   {
     "code": "600002",
     "name": "Csk",
+    "sym": "CSK",
     "qty": 100,
     "avgCost": 92.59,
     "sells": []
@@ -357,6 +406,7 @@
   {
     "code": "532175",
     "name": "Cyient",
+    "sym": "CYIENT",
     "qty": 279,
     "avgCost": 1417.1245,
     "sells": []
@@ -364,6 +414,7 @@
   {
     "code": "543933",
     "name": "Cyientdlm",
+    "sym": "CYIENTDLM",
     "qty": 1250,
     "avgCost": 554.7455,
     "sells": []
@@ -371,6 +422,7 @@
   {
     "code": "533160",
     "name": "Dbrealty",
+    "sym": "DBREALTY",
     "qty": 7100,
     "avgCost": 103.8506,
     "sells": []
@@ -378,6 +430,7 @@
   {
     "code": "502137",
     "name": "Deccance",
+    "sym": "DECCANCE",
     "qty": 200,
     "avgCost": 1154.8105,
     "sells": []
@@ -385,6 +438,7 @@
   {
     "code": "533137",
     "name": "Den",
+    "sym": "DEN",
     "qty": 3400,
     "avgCost": 45.6853,
     "sells": []
@@ -392,6 +446,7 @@
   {
     "code": "532488",
     "name": "Divi'S Labor",
+    "sym": "",
     "qty": 150,
     "avgCost": 6099.3,
     "sells": []
@@ -399,6 +454,7 @@
   {
     "code": "540699",
     "name": "Dixon",
+    "sym": "DIXON",
     "qty": 450,
     "avgCost": 4734.1252,
     "sells": []
@@ -406,6 +462,7 @@
   {
     "code": "544161",
     "name": "Dpabhushan",
+    "sym": "DPABHUSHAN",
     "qty": 450,
     "avgCost": 1675.9838,
     "sells": []
@@ -413,6 +470,7 @@
   {
     "code": "523618",
     "name": "Dredging Cor",
+    "sym": "",
     "qty": 825,
     "avgCost": 956.1105,
     "sells": [
@@ -426,6 +484,7 @@
   {
     "code": "532322",
     "name": "Elder Pharma",
+    "sym": "",
     "qty": 100,
     "avgCost": 371.9,
     "sells": []
@@ -433,6 +492,7 @@
   {
     "code": "543983",
     "name": "Emslimited",
+    "sym": "EMSLIMITED",
     "qty": 950,
     "avgCost": 668.6755,
     "sells": []
@@ -440,6 +500,7 @@
   {
     "code": "544390",
     "name": "Enrin",
+    "sym": "ENRIN",
     "qty": 210,
     "avgCost": 2469.3809,
     "sells": []
@@ -447,6 +508,7 @@
   {
     "code": "532658",
     "name": "Eon",
+    "sym": "EON",
     "qty": 1129,
     "avgCost": 91.3302,
     "sells": []
@@ -454,6 +516,7 @@
   {
     "code": "539844",
     "name": "Equitas",
+    "sym": "EQUITAS",
     "qty": 6524,
     "avgCost": 0.001,
     "sells": []
@@ -461,6 +524,7 @@
   {
     "code": "543320",
     "name": "Eternal",
+    "sym": "ETERNAL",
     "qty": 750,
     "avgCost": 44.85,
     "sells": []
@@ -468,6 +532,7 @@
   {
     "code": "544519",
     "name": "Europratik",
+    "sym": "EUROPRATIK",
     "qty": 100,
     "avgCost": 356.99,
     "sells": []
@@ -475,6 +540,7 @@
   {
     "code": "533333",
     "name": "Fcl",
+    "sym": "FCL",
     "qty": 10000,
     "avgCost": 37.3942,
     "sells": []
@@ -482,6 +548,7 @@
   {
     "code": "533400",
     "name": "Fconsumer",
+    "sym": "FCONSUMER",
     "qty": 10000,
     "avgCost": 11.1,
     "sells": []
@@ -489,6 +556,7 @@
   {
     "code": "500469",
     "name": "Federalbnk",
+    "sym": "FEDERALBNK",
     "qty": 1500,
     "avgCost": 211.3435,
     "sells": []
@@ -496,6 +564,7 @@
   {
     "code": "505744",
     "name": "Federal-Mogu",
+    "sym": "FEDERAL-MOGU",
     "qty": 1425,
     "avgCost": 476.2441,
     "sells": []
@@ -503,6 +572,7 @@
   {
     "code": "541557",
     "name": "Fineorg",
+    "sym": "FINEORG",
     "qty": 450,
     "avgCost": 3258.3812,
     "sells": []
@@ -510,6 +580,7 @@
   {
     "code": "500940",
     "name": "Finolex Indu",
+    "sym": "",
     "qty": 1100,
     "avgCost": 246.1076,
     "sells": []
@@ -517,6 +588,7 @@
   {
     "code": "542812",
     "name": "Fluorochem",
+    "sym": "FLUOROCHEM",
     "qty": 1150,
     "avgCost": 3125.4916,
     "sells": []
@@ -524,6 +596,7 @@
   {
     "code": "507552",
     "name": "Foodsin",
+    "sym": "FOODSIN",
     "qty": 3363,
     "avgCost": 145.4,
     "sells": []
@@ -531,6 +604,7 @@
   {
     "code": "540064",
     "name": "Fretail",
+    "sym": "FRETAIL",
     "qty": 800,
     "avgCost": 111.0187,
     "sells": []
@@ -538,6 +612,7 @@
   {
     "code": "540798",
     "name": "Fsc",
+    "sym": "FSC",
     "qty": 77,
     "avgCost": 520.05,
     "sells": []
@@ -545,6 +620,7 @@
   {
     "code": "532809",
     "name": "Fsl",
+    "sym": "FSL",
     "qty": 1550,
     "avgCost": 395.579,
     "sells": []
@@ -552,6 +628,7 @@
   {
     "code": "543652",
     "name": "Fusion",
+    "sym": "FUSION",
     "qty": 2000,
     "avgCost": 176.4386,
     "sells": []
@@ -559,6 +636,7 @@
   {
     "code": "526367",
     "name": "Ganeshhouc",
+    "sym": "GANESHHOUC",
     "qty": 50,
     "avgCost": 1125.0,
     "sells": []
@@ -566,6 +644,7 @@
   {
     "code": "506109",
     "name": "Genesys Intl",
+    "sym": "",
     "qty": 3600,
     "avgCost": 414.4202,
     "sells": []
@@ -573,6 +652,7 @@
   {
     "code": "542851",
     "name": "Gensol",
+    "sym": "GENSOL",
     "qty": 280,
     "avgCost": 1155.2361,
     "sells": []
@@ -580,6 +660,7 @@
   {
     "code": "509001",
     "name": "Globe",
+    "sym": "GLOBE",
     "qty": 8500,
     "avgCost": 3.93,
     "sells": []
@@ -587,6 +668,7 @@
   {
     "code": "310007",
     "name": "Globlegrn",
+    "sym": "GLOBLEGRN",
     "qty": 1,
     "avgCost": 0.0,
     "sells": []
@@ -594,6 +676,7 @@
   {
     "code": "509567",
     "name": "Goacarbon",
+    "sym": "GOACARBON",
     "qty": 175,
     "avgCost": 598.8429,
     "sells": []
@@ -601,6 +684,7 @@
   {
     "code": "532630",
     "name": "Gokex",
+    "sym": "GOKEX",
     "qty": 1050,
     "avgCost": 572.0881,
     "sells": []
@@ -608,6 +692,7 @@
   {
     "code": "533761",
     "name": "Gptinfra",
+    "sym": "GPTINFRA",
     "qty": 2000,
     "avgCost": 137.7463,
     "sells": []
@@ -615,6 +700,7 @@
   {
     "code": "538979",
     "name": "Grnlamind",
+    "sym": "GRNLAMIND",
     "qty": 21820,
     "avgCost": 107.6643,
     "sells": []
@@ -622,6 +708,7 @@
   {
     "code": "500160",
     "name": "Gtl Ltd",
+    "sym": "",
     "qty": 12500,
     "avgCost": 11.998,
     "sells": []
@@ -629,6 +716,7 @@
   {
     "code": "509079",
     "name": "Gufic Biosci",
+    "sym": "",
     "qty": 950,
     "avgCost": 280.7651,
     "sells": []
@@ -636,6 +724,7 @@
   {
     "code": "500174",
     "name": "Gujarat Leas",
+    "sym": "",
     "qty": 10000,
     "avgCost": 2.8875,
     "sells": []
@@ -643,6 +732,7 @@
   {
     "code": "500670",
     "name": "Gujarat Narm",
+    "sym": "",
     "qty": 975,
     "avgCost": 705.2703,
     "sells": []
@@ -650,6 +740,7 @@
   {
     "code": "532309",
     "name": "Gvpil",
+    "sym": "GVPIL",
     "qty": 1244,
     "avgCost": 305.8448,
     "sells": []
@@ -657,6 +748,7 @@
   {
     "code": "522275",
     "name": "Gvt&D",
+    "sym": "GVT&D",
     "qty": 3700,
     "avgCost": 232.2123,
     "sells": []
@@ -664,6 +756,7 @@
   {
     "code": "500180",
     "name": "Hdfc Bank Lt",
+    "sym": "",
     "qty": 2200,
     "avgCost": 735.9084,
     "sells": [
@@ -677,6 +770,7 @@
   {
     "code": "532347",
     "name": "Helios Mat I",
+    "sym": "",
     "qty": 1203,
     "avgCost": 108.7635,
     "sells": []
@@ -684,6 +778,7 @@
   {
     "code": "524735",
     "name": "Hikal Limite",
+    "sym": "",
     "qty": 2800,
     "avgCost": 428.6813,
     "sells": []
@@ -691,6 +786,7 @@
   {
     "code": "500183",
     "name": "Himachal Fut",
+    "sym": "",
     "qty": 13000,
     "avgCost": 85.3049,
     "sells": [
@@ -704,6 +800,7 @@
   {
     "code": "500440",
     "name": "Hindalco In",
+    "sym": "",
     "qty": 200,
     "avgCost": 939.05,
     "sells": []
@@ -711,6 +808,7 @@
   {
     "code": "513599",
     "name": "Hindcopper",
+    "sym": "HINDCOPPER",
     "qty": 1000,
     "avgCost": 601.1842,
     "sells": []
@@ -718,6 +816,7 @@
   {
     "code": "500185",
     "name": "Hindustan Co",
+    "sym": "",
     "qty": 69541,
     "avgCost": 17.0664,
     "sells": []
@@ -725,6 +824,7 @@
   {
     "code": "522215",
     "name": "Hleglas",
+    "sym": "HLEGLAS",
     "qty": 815,
     "avgCost": 682.1298,
     "sells": []
@@ -732,6 +832,7 @@
   {
     "code": "517174",
     "name": "Honeywell Au",
+    "sym": "",
     "qty": 115,
     "avgCost": 34417.6574,
     "sells": []
@@ -739,6 +840,7 @@
   {
     "code": "532662",
     "name": "Ht Media Ltd",
+    "sym": "",
     "qty": 10099,
     "avgCost": 32.9434,
     "sells": []
@@ -746,6 +848,7 @@
   {
     "code": "540530",
     "name": "Hudco",
+    "sym": "HUDCO",
     "qty": 4500,
     "avgCost": 154.8017,
     "sells": [
@@ -759,6 +862,7 @@
   {
     "code": "532174",
     "name": "Icici Bank L",
+    "sym": "",
     "qty": 350,
     "avgCost": 1429.2,
     "sells": []
@@ -766,6 +870,7 @@
   {
     "code": "532822",
     "name": "Idea",
+    "sym": "IDEA",
     "qty": 20000,
     "avgCost": 7.015,
     "sells": []
@@ -773,6 +878,7 @@
   {
     "code": "540750",
     "name": "Iex",
+    "sym": "IEX",
     "qty": 8900,
     "avgCost": 204.6217,
     "sells": []
@@ -780,6 +886,7 @@
   {
     "code": "517380",
     "name": "Igarshi Moto",
+    "sym": "",
     "qty": 2646,
     "avgCost": 539.4914,
     "sells": []
@@ -787,6 +894,7 @@
   {
     "code": "533177",
     "name": "Il&Fstrans",
+    "sym": "IL&FSTRANS",
     "qty": 2500,
     "avgCost": 94.657,
     "sells": []
@@ -794,6 +902,7 @@
   {
     "code": "534816",
     "name": "Industower",
+    "sym": "INDUSTOWER",
     "qty": 875,
     "avgCost": 306.9657,
     "sells": []
@@ -801,6 +910,7 @@
   {
     "code": "539083",
     "name": "Inoxwind",
+    "sym": "INOXWIND",
     "qty": 4250,
     "avgCost": 154.716,
     "sells": []
@@ -808,6 +918,7 @@
   {
     "code": "540526",
     "name": "Irbinvit",
+    "sym": "IRBINVIT",
     "qty": 5000,
     "avgCost": 67.92,
     "sells": []
@@ -815,6 +926,7 @@
   {
     "code": "532209",
     "name": "J & K Bank L",
+    "sym": "",
     "qty": 2000,
     "avgCost": 121.4975,
     "sells": [
@@ -828,6 +940,7 @@
   {
     "code": "523398",
     "name": "Jchac",
+    "sym": "JCHAC",
     "qty": 359,
     "avgCost": 2177.2714,
     "sells": []
@@ -835,6 +948,7 @@
   {
     "code": "543940",
     "name": "Jiofin",
+    "sym": "JIOFIN",
     "qty": 500,
     "avgCost": 0.0001,
     "sells": []
@@ -842,6 +956,7 @@
   {
     "code": "500219",
     "name": "Jisjaleqs",
+    "sym": "JISJALEQS",
     "qty": 1500,
     "avgCost": 71.8967,
     "sells": []
@@ -849,6 +964,7 @@
   {
     "code": "523405",
     "name": "Jm Financial",
+    "sym": "",
     "qty": 8900,
     "avgCost": 111.9573,
     "sells": []
@@ -856,6 +972,7 @@
   {
     "code": "532627",
     "name": "Jppower",
+    "sym": "JPPOWER",
     "qty": 50500,
     "avgCost": 19.0529,
     "sells": []
@@ -863,6 +980,7 @@
   {
     "code": "543994",
     "name": "Jswinfra",
+    "sym": "JSWINFRA",
     "qty": 400,
     "avgCost": 327.4898,
     "sells": []
@@ -870,6 +988,7 @@
   {
     "code": "543271",
     "name": "Jublingrea",
+    "sym": "JUBLINGREA",
     "qty": 2200,
     "avgCost": 587.8277,
     "sells": []
@@ -877,6 +996,7 @@
   {
     "code": "513250",
     "name": "Jyoti Struct",
+    "sym": "",
     "qty": 112000,
     "avgCost": 13.805,
     "sells": []
@@ -884,6 +1004,7 @@
   {
     "code": "543664",
     "name": "Kaynes",
+    "sym": "KAYNES",
     "qty": 100,
     "avgCost": 4408.22,
     "sells": []
@@ -891,6 +1012,7 @@
   {
     "code": "533193",
     "name": "Kecl",
+    "sym": "KECL",
     "qty": 1000,
     "avgCost": 191.25,
     "sells": []
@@ -898,6 +1020,7 @@
   {
     "code": "533293",
     "name": "Kirloseng",
+    "sym": "KIRLOSENG",
     "qty": 874,
     "avgCost": 725.8404,
     "sells": []
@@ -905,6 +1028,7 @@
   {
     "code": "523323",
     "name": "Kovai",
+    "sym": "KOVAI",
     "qty": 853,
     "avgCost": 2072.6107,
     "sells": []
@@ -912,6 +1036,7 @@
   {
     "code": "533482",
     "name": "Kridhaninf",
+    "sym": "KRIDHANINF",
     "qty": 4098,
     "avgCost": 2.85,
     "sells": []
@@ -919,6 +1044,7 @@
   {
     "code": "300022",
     "name": "Krishnadef",
+    "sym": "KRISHNADEF",
     "qty": 2000,
     "avgCost": 166.05,
     "sells": []
@@ -926,6 +1052,7 @@
   {
     "code": "543328",
     "name": "Krsnaa",
+    "sym": "KRSNAA",
     "qty": 400,
     "avgCost": 885.3749,
     "sells": []
@@ -933,6 +1060,7 @@
   {
     "code": "500249",
     "name": "Ksb",
+    "sym": "KSB",
     "qty": 10216,
     "avgCost": 251.6755,
     "sells": []
@@ -940,6 +1068,7 @@
   {
     "code": "532997",
     "name": "Ksk",
+    "sym": "KSK",
     "qty": 2500,
     "avgCost": 19.7,
     "sells": []
@@ -947,6 +1076,7 @@
   {
     "code": "544622",
     "name": "Kwil",
+    "sym": "KWIL",
     "qty": 7000,
     "avgCost": 29.7477,
     "sells": []
@@ -954,6 +1084,7 @@
   {
     "code": "500510",
     "name": "Larsen & Tou",
+    "sym": "",
     "qty": 200,
     "avgCost": 3545.5255,
     "sells": []
@@ -961,6 +1092,7 @@
   {
     "code": "500253",
     "name": "Lichsgfin",
+    "sym": "LICHSGFIN",
     "qty": 1775,
     "avgCost": 665.1039,
     "sells": []
@@ -968,6 +1100,7 @@
   {
     "code": "523457",
     "name": "Lindeindia",
+    "sym": "LINDEINDIA",
     "qty": 380,
     "avgCost": 2386.8371,
     "sells": []
@@ -975,6 +1108,7 @@
   {
     "code": "539992",
     "name": "Lloydsengg",
+    "sym": "LLOYDSENGG",
     "qty": 4400,
     "avgCost": 43.35,
     "sells": []
@@ -982,6 +1116,7 @@
   {
     "code": "512455",
     "name": "Lloydsme",
+    "sym": "LLOYDSME",
     "qty": 50,
     "avgCost": 1261.9,
     "sells": []
@@ -989,6 +1124,7 @@
   {
     "code": "500252",
     "name": "Lmw",
+    "sym": "LMW",
     "qty": 155,
     "avgCost": 16679.5629,
     "sells": []
@@ -996,6 +1132,7 @@
   {
     "code": "544469",
     "name": "Lotusdev",
+    "sym": "LOTUSDEV",
     "qty": 1000,
     "avgCost": 131.5,
     "sells": []
@@ -1003,6 +1140,7 @@
   {
     "code": "500011",
     "name": "Lotuseye",
+    "sym": "LOTUSEYE",
     "qty": 18293,
     "avgCost": 61.7616,
     "sells": []
@@ -1010,6 +1148,7 @@
   {
     "code": "500001",
     "name": "Macpower",
+    "sym": "MACPOWER",
     "qty": 1990,
     "avgCost": 348.7703,
     "sells": []
@@ -1017,6 +1156,7 @@
   {
     "code": "500265",
     "name": "Mahaseamles",
+    "sym": "MAHASEAMLES",
     "qty": 325,
     "avgCost": 636.8308,
     "sells": []
@@ -1024,6 +1164,7 @@
   {
     "code": "500268",
     "name": "Manali Petro",
+    "sym": "",
     "qty": 3000,
     "avgCost": 93.44,
     "sells": []
@@ -1031,6 +1172,7 @@
   {
     "code": "543425",
     "name": "Mapmyindia",
+    "sym": "MAPMYINDIA",
     "qty": 519,
     "avgCost": 1775.9083,
     "sells": []
@@ -1038,6 +1180,7 @@
   {
     "code": "532500",
     "name": "Maruti",
+    "sym": "MARUTI",
     "qty": 100,
     "avgCost": 12327.89,
     "sells": []
@@ -1045,6 +1188,7 @@
   {
     "code": "543223",
     "name": "Maxindia",
+    "sym": "MAXINDIA",
     "qty": 1500,
     "avgCost": 155.6861,
     "sells": []
@@ -1052,6 +1196,7 @@
   {
     "code": "532629",
     "name": "Mcnally Bhar",
+    "sym": "",
     "qty": 100,
     "avgCost": 7.1,
     "sells": []
@@ -1059,6 +1204,7 @@
   {
     "code": "543427",
     "name": "Medplus",
+    "sym": "MEDPLUS",
     "qty": 1500,
     "avgCost": 749.4729,
     "sells": []
@@ -1066,6 +1212,7 @@
   {
     "code": "544632",
     "name": "Meesho",
+    "sym": "MEESHO",
     "qty": 2000,
     "avgCost": 170.5065,
     "sells": []
@@ -1073,6 +1220,7 @@
   {
     "code": "541195",
     "name": "Midhani",
+    "sym": "MIDHANI",
     "qty": 11050,
     "avgCost": 493.3491,
     "sells": []
@@ -1080,6 +1228,7 @@
   {
     "code": "544305",
     "name": "Mobikwik",
+    "sym": "MOBIKWIK",
     "qty": 200,
     "avgCost": 461.9,
     "sells": []
@@ -1087,6 +1236,7 @@
   {
     "code": "500288",
     "name": "Morepen Lab.",
+    "sym": "",
     "qty": 4250,
     "avgCost": 96.0,
     "sells": []
@@ -1094,6 +1244,7 @@
   {
     "code": "700009",
     "name": "Mos",
+    "sym": "MOS",
     "qty": 12000,
     "avgCost": 10.1601,
     "sells": []
@@ -1101,6 +1252,7 @@
   {
     "code": "543498",
     "name": "Motherson",
+    "sym": "MOTHERSON",
     "qty": 17100,
     "avgCost": 6.1726,
     "sells": []
@@ -1108,6 +1260,7 @@
   {
     "code": "517334",
     "name": "Msumi",
+    "sym": "MSUMI",
     "qty": 14910,
     "avgCost": 44.113,
     "sells": []
@@ -1115,6 +1268,7 @@
   {
     "code": "539917",
     "name": "Nagafert",
+    "sym": "NAGAFERT",
     "qty": 2500,
     "avgCost": 15.0,
     "sells": []
@@ -1122,6 +1276,7 @@
   {
     "code": "534184",
     "name": "Nagaroil",
+    "sym": "NAGAROIL",
     "qty": 500,
     "avgCost": 5.65,
     "sells": []
@@ -1129,6 +1284,7 @@
   {
     "code": "524816",
     "name": "Natcopharm",
+    "sym": "NATCOPHARM",
     "qty": 1125,
     "avgCost": 1143.7417,
     "sells": []
@@ -1136,6 +1292,7 @@
   {
     "code": "532504",
     "name": "Navinfluor",
+    "sym": "NAVINFLUOR",
     "qty": 1200,
     "avgCost": 1073.4187,
     "sells": []
@@ -1143,6 +1300,7 @@
   {
     "code": "539332",
     "name": "Navkarcorp",
+    "sym": "NAVKARCORP",
     "qty": 2000,
     "avgCost": 125.315,
     "sells": []
@@ -1150,6 +1308,7 @@
   {
     "code": "532649",
     "name": "Neclife",
+    "sym": "NECLIFE",
     "qty": 500,
     "avgCost": 41.84,
     "sells": []
@@ -1157,6 +1316,7 @@
   {
     "code": "504112",
     "name": "Nelco Ltd",
+    "sym": "",
     "qty": 1550,
     "avgCost": 1144.915,
     "sells": []
@@ -1164,6 +1324,7 @@
   {
     "code": "1111",
     "name": "Nephrocare",
+    "sym": "NEPHROCARE",
     "qty": 3200,
     "avgCost": 314.1,
     "sells": []
@@ -1171,6 +1332,7 @@
   {
     "code": "526371",
     "name": "Nmdc Ltd",
+    "sym": "",
     "qty": 10000,
     "avgCost": 84.4277,
     "sells": []
@@ -1178,6 +1340,7 @@
   {
     "code": "500730",
     "name": "Nocil",
+    "sym": "NOCIL",
     "qty": 6750,
     "avgCost": 268.5738,
     "sells": []
@@ -1185,6 +1348,7 @@
   {
     "code": "543768",
     "name": "Nslnisp",
+    "sym": "NSLNISP",
     "qty": 5000,
     "avgCost": 56.92,
     "sells": []
@@ -1192,6 +1356,7 @@
   {
     "code": "543384",
     "name": "Nykaa",
+    "sym": "NYKAA",
     "qty": 6600,
     "avgCost": 271.3752,
     "sells": []
@@ -1199,6 +1364,7 @@
   {
     "code": "544225",
     "name": "Olaelec",
+    "sym": "OLAELEC",
     "qty": 6250,
     "avgCost": 52.4488,
     "sells": []
@@ -1206,6 +1372,7 @@
   {
     "code": "300020",
     "name": "Onesource",
+    "sym": "ONESOURCE",
     "qty": 427,
     "avgCost": 0.0001,
     "sells": []
@@ -1213,6 +1380,7 @@
   {
     "code": "530135",
     "name": "Optiemus",
+    "sym": "OPTIEMUS",
     "qty": 450,
     "avgCost": 631.1111,
     "sells": []
@@ -1220,6 +1388,7 @@
   {
     "code": "500314",
     "name": "Orient Hotel",
+    "sym": "",
     "qty": 8395,
     "avgCost": 143.4191,
     "sells": []
@@ -1227,6 +1396,7 @@
   {
     "code": "544595",
     "name": "Orklaindia",
+    "sym": "ORKLAINDIA",
     "qty": 5000,
     "avgCost": 750.1,
     "sells": []
@@ -1234,6 +1404,7 @@
   {
     "code": "530555",
     "name": "Paracables",
+    "sym": "PARACABLES",
     "qty": 2000,
     "avgCost": 47.4,
     "sells": []
@@ -1241,6 +1412,7 @@
   {
     "code": "543530",
     "name": "Paradeep",
+    "sym": "PARADEEP",
     "qty": 100,
     "avgCost": 205.5,
     "sells": []
@@ -1248,6 +1420,7 @@
   {
     "code": "600003",
     "name": "Pccl",
+    "sym": "PCCL",
     "qty": 800,
     "avgCost": 293.1,
     "sells": []
@@ -1255,6 +1428,7 @@
   {
     "code": "534809",
     "name": "Pcjeweller",
+    "sym": "PCJEWELLER",
     "qty": 3500,
     "avgCost": 16.1814,
     "sells": []
@@ -1262,6 +1436,7 @@
   {
     "code": "503031",
     "name": "Peninsula La",
+    "sym": "",
     "qty": 13750,
     "avgCost": 50.5235,
     "sells": []
@@ -1269,6 +1444,7 @@
   {
     "code": "533344",
     "name": "Pfs",
+    "sym": "PFS",
     "qty": 4000,
     "avgCost": 48.3913,
     "sells": []
@@ -1276,6 +1452,7 @@
   {
     "code": "500331",
     "name": "Pidilitind",
+    "sym": "PIDILITIND",
     "qty": 1246,
     "avgCost": 757.9686,
     "sells": []
@@ -1283,6 +1460,7 @@
   {
     "code": "500333",
     "name": "Pixtrans",
+    "sym": "PIXTRANS",
     "qty": 450,
     "avgCost": 2093.858,
     "sells": []
@@ -1290,6 +1468,7 @@
   {
     "code": "540173",
     "name": "Pnbhousing",
+    "sym": "PNBHOUSING",
     "qty": 2000,
     "avgCost": 771.7259,
     "sells": [
@@ -1303,6 +1482,7 @@
   {
     "code": "542652",
     "name": "Polycab",
+    "sym": "POLYCAB",
     "qty": 500,
     "avgCost": 2888.5181,
     "sells": []
@@ -1310,6 +1490,7 @@
   {
     "code": "531768",
     "name": "Polymed",
+    "sym": "POLYMED",
     "qty": 240,
     "avgCost": 2012.3625,
     "sells": []
@@ -1317,6 +1498,7 @@
   {
     "code": "526247",
     "name": "Premexpln",
+    "sym": "PREMEXPLN",
     "qty": 3500,
     "avgCost": 68.6885,
     "sells": []
@@ -1324,6 +1506,7 @@
   {
     "code": "530117",
     "name": "Priviscl",
+    "sym": "PRIVISCL",
     "qty": 200,
     "avgCost": 1706.3609,
     "sells": []
@@ -1331,6 +1514,7 @@
   {
     "code": "539006",
     "name": "Ptcil",
+    "sym": "PTCIL",
     "qty": 25,
     "avgCost": 16240.8,
     "sells": [
@@ -1344,6 +1528,7 @@
   {
     "code": "505800",
     "name": "Rane Holding",
+    "sym": "",
     "qty": 100,
     "avgCost": 1470.0762,
     "sells": []
@@ -1351,6 +1536,7 @@
   {
     "code": "540065",
     "name": "Rblbank",
+    "sym": "RBLBANK",
     "qty": 6850,
     "avgCost": 267.3537,
     "sells": []
@@ -1358,6 +1544,7 @@
   {
     "code": "532712",
     "name": "Rcom",
+    "sym": "RCOM",
     "qty": 1000,
     "avgCost": 2.85,
     "sells": []
@@ -1365,6 +1552,7 @@
   {
     "code": "500325",
     "name": "Reliance",
+    "sym": "RELIANCE",
     "qty": 850,
     "avgCost": 1791.878,
     "sells": []
@@ -1372,6 +1560,7 @@
   {
     "code": "500390",
     "name": "Relinfra",
+    "sym": "RELINFRA",
     "qty": 2150,
     "avgCost": 253.265,
     "sells": []
@@ -1379,6 +1568,7 @@
   {
     "code": "532527",
     "name": "Rkforge",
+    "sym": "RKFORGE",
     "qty": 1250,
     "avgCost": 603.6412,
     "sells": []
@@ -1386,6 +1576,7 @@
   {
     "code": "502448",
     "name": "Rollt",
+    "sym": "ROLLT",
     "qty": 13051,
     "avgCost": 2.9773,
     "sells": []
@@ -1393,6 +1584,7 @@
   {
     "code": "543213",
     "name": "Rossari",
+    "sym": "ROSSARI",
     "qty": 550,
     "avgCost": 959.9582,
     "sells": []
@@ -1400,6 +1592,7 @@
   {
     "code": "544294",
     "name": "Rosstech",
+    "sym": "ROSSTECH",
     "qty": 1000,
     "avgCost": 0.0001,
     "sells": []
@@ -1407,6 +1600,7 @@
   {
     "code": "532939",
     "name": "Rpower",
+    "sym": "RPOWER",
     "qty": 57055,
     "avgCost": 61.6723,
     "sells": []
@@ -1414,6 +1608,7 @@
   {
     "code": "533552",
     "name": "Rupa",
+    "sym": "RUPA",
     "qty": 2650,
     "avgCost": 461.1638,
     "sells": []
@@ -1421,6 +1616,7 @@
   {
     "code": "514304",
     "name": "S Kumars Nat",
+    "sym": "",
     "qty": 10000,
     "avgCost": 5.925,
     "sells": []
@@ -1428,6 +1624,7 @@
   {
     "code": "502090",
     "name": "Sagcem",
+    "sym": "SAGCEM",
     "qty": 14175,
     "avgCost": 70.3744,
     "sells": []
@@ -1435,6 +1632,7 @@
   {
     "code": "543123",
     "name": "Sahasra",
+    "sym": "SAHASRA",
     "qty": 800,
     "avgCost": 597.85,
     "sells": []
@@ -1442,6 +1640,7 @@
   {
     "code": "535789",
     "name": "Sammaancap",
+    "sym": "SAMMAANCAP",
     "qty": 2599,
     "avgCost": 160.6003,
     "sells": []
@@ -1449,6 +1648,7 @@
   {
     "code": "504918",
     "name": "Sanduma",
+    "sym": "SANDUMA",
     "qty": 1775,
     "avgCost": 3.4691,
     "sells": []
@@ -1456,6 +1656,7 @@
   {
     "code": "526521",
     "name": "Sanghi Indus",
+    "sym": "",
     "qty": 6500,
     "avgCost": 92.7734,
     "sells": []
@@ -1463,6 +1664,7 @@
   {
     "code": "530073",
     "name": "Sanghvimov",
+    "sym": "SANGHVIMOV",
     "qty": 2042,
     "avgCost": 259.7229,
     "sells": []
@@ -1470,6 +1672,7 @@
   {
     "code": "500674",
     "name": "Sanofi",
+    "sym": "SANOFI",
     "qty": 75,
     "avgCost": 6522.5995,
     "sells": []
@@ -1477,6 +1680,7 @@
   {
     "code": "544217",
     "name": "Sanstar",
+    "sym": "SANSTAR",
     "qty": 3750,
     "avgCost": 141.667,
     "sells": []
@@ -1484,6 +1688,7 @@
   {
     "code": "500112",
     "name": "Sbin",
+    "sym": "SBIN",
     "qty": 2275,
     "avgCost": 656.1546,
     "sells": []
@@ -1491,6 +1696,7 @@
   {
     "code": "505790",
     "name": "Schaeffler",
+    "sym": "SCHAEFFLER",
     "qty": 645,
     "avgCost": 606.4094,
     "sells": []
@@ -1498,6 +1704,7 @@
   {
     "code": "534139",
     "name": "Schneider",
+    "sym": "SCHNEIDER",
     "qty": 2722,
     "avgCost": 122.6451,
     "sells": []
@@ -1505,6 +1712,7 @@
   {
     "code": "544142",
     "name": "Scilal",
+    "sym": "SCILAL",
     "qty": 5250,
     "avgCost": 100.7967,
     "sells": []
@@ -1512,6 +1720,7 @@
   {
     "code": "538685",
     "name": "Shemaroo",
+    "sym": "SHEMAROO",
     "qty": 632,
     "avgCost": 185.0101,
     "sells": []
@@ -1519,6 +1728,7 @@
   {
     "code": "532776",
     "name": "Shivam Auto.",
+    "sym": "",
     "qty": 5000,
     "avgCost": 53.5,
     "sells": []
@@ -1526,6 +1736,7 @@
   {
     "code": "532638",
     "name": "Shoperstop",
+    "sym": "SHOPERSTOP",
     "qty": 1,
     "avgCost": 703.5,
     "sells": []
@@ -1533,6 +1744,7 @@
   {
     "code": "543299",
     "name": "Shyammetl",
+    "sym": "SHYAMMETL",
     "qty": 500,
     "avgCost": 484.045,
     "sells": [
@@ -1546,6 +1758,7 @@
   {
     "code": "543389",
     "name": "Sigachi",
+    "sym": "SIGACHI",
     "qty": 49000,
     "avgCost": 19.562,
     "sells": []
@@ -1553,6 +1766,7 @@
   {
     "code": "530017",
     "name": "Sil",
+    "sym": "SIL",
     "qty": 7200,
     "avgCost": 25.2743,
     "sells": []
@@ -1560,6 +1774,7 @@
   {
     "code": "500000",
     "name": "Sirca",
+    "sym": "SIRCA",
     "qty": 750,
     "avgCost": 397.628,
     "sells": []
@@ -1567,6 +1782,7 @@
   {
     "code": "532872",
     "name": "Sparc",
+    "sym": "SPARC",
     "qty": 1427,
     "avgCost": 211.674,
     "sells": []
@@ -1574,6 +1790,7 @@
   {
     "code": "540653",
     "name": "Sptl",
+    "sym": "SPTL",
     "qty": 10148,
     "avgCost": 2.2653,
     "sells": []
@@ -1581,6 +1798,7 @@
   {
     "code": "461591",
     "name": "Spunweb",
+    "sym": "SPUNWEB",
     "qty": 2400,
     "avgCost": 148.975,
     "sells": []
@@ -1588,6 +1806,7 @@
   {
     "code": "503806",
     "name": "Srf",
+    "sym": "SRF",
     "qty": 4550,
     "avgCost": 445.3619,
     "sells": []
@@ -1595,6 +1814,7 @@
   {
     "code": "532842",
     "name": "Srhhypoltd",
+    "sym": "SRHHYPOLTD",
     "qty": 1500,
     "avgCost": 645.8927,
     "sells": []
@@ -1602,6 +1822,7 @@
   {
     "code": "500113",
     "name": "Steel Author",
+    "sym": "",
     "qty": 4000,
     "avgCost": 95.9262,
     "sells": []
@@ -1609,6 +1830,7 @@
   {
     "code": "526951",
     "name": "Stylamind",
+    "sym": "STYLAMIND",
     "qty": 400,
     "avgCost": 1739.4,
     "sells": []
@@ -1616,6 +1838,7 @@
   {
     "code": "524542",
     "name": "Sukhjits",
+    "sym": "SUKHJITS",
     "qty": 1600,
     "avgCost": 202.117,
     "sells": []
@@ -1623,6 +1846,7 @@
   {
     "code": "524715",
     "name": "Sun Pharmace",
+    "sym": "",
     "qty": 250,
     "avgCost": 1752.4,
     "sells": []
@@ -1630,6 +1854,7 @@
   {
     "code": "500403",
     "name": "Sundaram Fas",
+    "sym": "",
     "qty": 175,
     "avgCost": 1269.3929,
     "sells": []
@@ -1637,6 +1862,7 @@
   {
     "code": "509930",
     "name": "Supreme Indu",
+    "sym": "",
     "qty": 1060,
     "avgCost": 3052.043,
     "sells": []
@@ -1644,6 +1870,7 @@
   {
     "code": "537259",
     "name": "Suyog",
+    "sym": "SUYOG",
     "qty": 200,
     "avgCost": 1669.95,
     "sells": []
@@ -1651,6 +1878,7 @@
   {
     "code": "532667",
     "name": "Suzlon Energ",
+    "sym": "",
     "qty": 29000,
     "avgCost": 11.9724,
     "sells": []
@@ -1658,6 +1886,7 @@
   {
     "code": "503310",
     "name": "Swanengergy",
+    "sym": "SWANENGERGY",
     "qty": 1000,
     "avgCost": 447.9448,
     "sells": []
@@ -1665,6 +1894,7 @@
   {
     "code": "542760",
     "name": "Swsolar",
+    "sym": "SWSOLAR",
     "qty": 3000,
     "avgCost": 478.8589,
     "sells": []
@@ -1672,6 +1902,7 @@
   {
     "code": "500770",
     "name": "Tata Chemica",
+    "sym": "",
     "qty": 1350,
     "avgCost": 983.6981,
     "sells": []
@@ -1679,6 +1910,7 @@
   {
     "code": "500408",
     "name": "Tata Elxsi (",
+    "sym": "",
     "qty": 1990,
     "avgCost": 841.6645,
     "sells": []
@@ -1686,6 +1918,7 @@
   {
     "code": "500400",
     "name": "Tata Power C",
+    "sym": "",
     "qty": 2000,
     "avgCost": 218.7887,
     "sells": []
@@ -1693,6 +1926,7 @@
   {
     "code": "532371",
     "name": "Tata Teleser",
+    "sym": "",
     "qty": 8000,
     "avgCost": 79.6645,
     "sells": []
@@ -1700,6 +1934,7 @@
   {
     "code": "544028",
     "name": "Tatatech",
+    "sym": "TATATECH",
     "qty": 450,
     "avgCost": 1103.1347,
     "sells": []
@@ -1707,6 +1942,7 @@
   {
     "code": "540595",
     "name": "Tejasnet",
+    "sym": "TEJASNET",
     "qty": 930,
     "avgCost": 1061.2507,
     "sells": []
@@ -1714,6 +1950,7 @@
   {
     "code": "533326",
     "name": "Texrail",
+    "sym": "TEXRAIL",
     "qty": 1750,
     "avgCost": 281.6071,
     "sells": []
@@ -1721,6 +1958,7 @@
   {
     "code": "500411",
     "name": "Thermax Ltd",
+    "sym": "",
     "qty": 930,
     "avgCost": 4512.5655,
     "sells": []
@@ -1728,6 +1966,7 @@
   {
     "code": "540762",
     "name": "Tiindia",
+    "sym": "TIINDIA",
     "qty": 676,
     "avgCost": 3274.799,
     "sells": []
@@ -1735,6 +1974,7 @@
   {
     "code": "522113",
     "name": "Timken",
+    "sym": "TIMKEN",
     "qty": 1643,
     "avgCost": 1372.1367,
     "sells": []
@@ -1742,6 +1982,7 @@
   {
     "code": "500114",
     "name": "Titan",
+    "sym": "TITAN",
     "qty": 914,
     "avgCost": 1213.0693,
     "sells": []
@@ -1749,6 +1990,7 @@
   {
     "code": "544569",
     "name": "Tmcv",
+    "sym": "TMCV",
     "qty": 4200,
     "avgCost": 0.0001,
     "sells": []
@@ -1756,6 +1998,7 @@
   {
     "code": "500570",
     "name": "Tmpv",
+    "sym": "TMPV",
     "qty": 4200,
     "avgCost": 676.6029,
     "sells": []
@@ -1763,6 +2006,7 @@
   {
     "code": "543638",
     "name": "Tracxn",
+    "sym": "TRACXN",
     "qty": 1250,
     "avgCost": 104.54,
     "sells": []
@@ -1770,6 +2014,7 @@
   {
     "code": "543955",
     "name": "Trel",
+    "sym": "TREL",
     "qty": 500,
     "avgCost": 53.45,
     "sells": []
@@ -1777,6 +2022,7 @@
   {
     "code": "500251",
     "name": "Trent Ltd",
+    "sym": "",
     "qty": 125,
     "avgCost": 4078.7568,
     "sells": []
@@ -1784,6 +2030,7 @@
   {
     "code": "533644",
     "name": "Ujaas",
+    "sym": "UJAAS",
     "qty": 3,
     "avgCost": 14.2333,
     "sells": []
@@ -1791,6 +2038,7 @@
   {
     "code": "532538",
     "name": "Ultra Tech C",
+    "sym": "",
     "qty": 477,
     "avgCost": 4696.1265,
     "sells": []
@@ -1798,6 +2046,7 @@
   {
     "code": "590005",
     "name": "Veedol",
+    "sym": "VEEDOL",
     "qty": 975,
     "avgCost": 1554.0815,
     "sells": []
@@ -1805,6 +2054,7 @@
   {
     "code": "543350",
     "name": "Vijaya",
+    "sym": "VIJAYA",
     "qty": 1650,
     "avgCost": 508.7639,
     "sells": []
@@ -1812,6 +2062,7 @@
   {
     "code": "544496",
     "name": "Vikran",
+    "sym": "VIKRAN",
     "qty": 1400,
     "avgCost": 103.846,
     "sells": []
@@ -1819,6 +2070,7 @@
   {
     "code": "507880",
     "name": "Vip Industri",
+    "sym": "",
     "qty": 675,
     "avgCost": 545.863,
     "sells": []
@@ -1826,6 +2078,7 @@
   {
     "code": "534392",
     "name": "Vssl",
+    "sym": "VSSL",
     "qty": 8452,
     "avgCost": 137.195,
     "sells": []
@@ -1833,6 +2086,7 @@
   {
     "code": "533269",
     "name": "Wabag",
+    "sym": "WABAG",
     "qty": 1125,
     "avgCost": 1102.8639,
     "sells": []
@@ -1840,6 +2094,7 @@
   {
     "code": "507410",
     "name": "Walchandnaga",
+    "sym": "WALCHANDNAGA",
     "qty": 1474,
     "avgCost": 250.4237,
     "sells": []
@@ -1847,6 +2102,7 @@
   {
     "code": "505412",
     "name": "Wendt (India",
+    "sym": "",
     "qty": 10,
     "avgCost": 8800.0,
     "sells": []
@@ -1854,6 +2110,7 @@
   {
     "code": "500444",
     "name": "West Coast P",
+    "sym": "",
     "qty": 2113,
     "avgCost": 551.0034,
     "sells": []
@@ -1861,6 +2118,7 @@
   {
     "code": "590073",
     "name": "Wheels India",
+    "sym": "",
     "qty": 1010,
     "avgCost": 738.5909,
     "sells": []
@@ -1868,6 +2126,7 @@
   {
     "code": "532300",
     "name": "Wockhardt Li",
+    "sym": "",
     "qty": 1515,
     "avgCost": 1453.5403,
     "sells": []
@@ -1875,6 +2134,7 @@
   {
     "code": "532648",
     "name": "Yes Bank Ltd",
+    "sym": "",
     "qty": 36000,
     "avgCost": 22.3,
     "sells": []
@@ -1882,6 +2142,7 @@
   {
     "code": "522108",
     "name": "Yuken",
+    "sym": "YUKEN",
     "qty": 1650,
     "avgCost": 1002.9498,
     "sells": []
@@ -1889,6 +2150,7 @@
   {
     "code": "505537",
     "name": "Zeel",
+    "sym": "ZEEL",
     "qty": 5567,
     "avgCost": 188.7989,
     "sells": []
@@ -1896,6 +2158,7 @@
   {
     "code": "533287",
     "name": "Zeelearn",
+    "sym": "ZEELEARN",
     "qty": 1000,
     "avgCost": 14.65,
     "sells": []
