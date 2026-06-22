@@ -2,28 +2,44 @@
 """Fetch prices for every holding in holdings.json and write prices.json.
 Runs in GitHub Actions (server-side): no CORS, no proxy.
 
-Strategy per stock:
-  1. BSE by scrip code  ->  <code>.BO   (authoritative, unambiguous)
-  2. if BSE has no data  ->  NSE by symbol  ->  <sym>.NS   (recovers newer
-     listings that Yahoo doesn't carry on its BSE feed)
+Per stock, in order, first hit that returns a valid price wins:
+  1. BSE by scrip code         -> <code>.BO
+  2. explicit NSE override map  -> <ticker>.NS   (for names that aren't clean symbols)
+  3. NSE by sheet symbol        -> <sym>.NS
 Only finite, positive prices are written, so bad data never reaches the page.
 """
 import json, math, datetime, time, logging
 
 import yfinance as yf
-logging.getLogger("yfinance").setLevel(logging.CRITICAL)  # quiet the "delisted" spam
+logging.getLogger("yfinance").setLevel(logging.CRITICAL)
+
+# --- explicit NSE tickers for holdings whose sheet name is a truncated description ---
+NSE_OVERRIDE = {
+  "500002":"ABB", "506235":"ALEMBICLTD", "508869":"APOLLOHOSP", "532454":"BHARTIARTL",
+  "531344":"CONCOR", "500092":"CRISIL", "532488":"DIVISLAB", "532322":"ELDERPHARM",
+  "500940":"FINPIPE", "540798":"FSC", "506109":"GENESYS", "500160":"GTLINFRA",
+  "509079":"GUFICBIO", "500670":"GNFC", "500180":"HDFCBANK", "532347":"HELIOSMATH",
+  "524735":"HIKAL", "500183":"HIMATSEIDE", "500440":"HINDALCO", "500185":"HCC",
+  "532662":"HTMEDIA", "532174":"ICICIBANK", "500265":"MAHSEAMLES", "543223":"MAXIND",
+  "500288":"MOREPENLAB", "504112":"NELCO", "500314":"ORIENTHOT", "514304":"SKUMARSYNF",
+  "543123":"SAHASRA", "526521":"SANGHIIND", "540653":"SPTL", "461591":"SPUNWEB",
+  "500113":"SAIL", "524715":"SUNPHARMA", "500403":"SUNDRMFAST", "509930":"SUPREMEIND",
+  "532667":"SUZLON", "500770":"TATACHEM", "500408":"TATAELXSI", "500400":"TATAPOWER",
+  "532371":"TTML", "500411":"THERMAX", "500251":"TRENT", "507880":"VIPIND",
+  "505412":"WENDT", "590073":"WHEELS", "532648":"YESBANK", "539844":"EQUITASBNK",
+  "534184":"NAGAOIL",
+}
 
 with open("holdings.json", encoding="utf-8") as f:
     holdings = json.load(f)
 
-# code -> nse symbol (may be "")
 sym_of = {}
 for h in holdings:
     c = str(h["code"])
     if c.isdigit() and len(c) >= 5:
         sym_of[c] = (h.get("sym") or "").strip()
 codes = sorted(sym_of)
-prices = {}   # code -> {"price":x,"src":"BO"/"NS"}
+prices = {}
 
 def good(v):
     try:
@@ -53,7 +69,7 @@ def fetch_one(ticker):
         time.sleep(0.4)
     return None
 
-# ---- pass 1: batch BSE by code (fast, small chunks) ----
+# ---- pass 1: batch BSE by code ----
 tickers = [c + ".BO" for c in codes]
 CHUNK = 20
 for i in range(0, len(tickers), CHUNK):
@@ -62,8 +78,7 @@ for i in range(0, len(tickers), CHUNK):
         data = yf.download(chunk, period="5d", interval="1d", group_by="ticker",
                            threads=False, progress=False, auto_adjust=False)
     except Exception as e:
-        print("batch failed:", e)
-        data = None
+        print("batch failed:", e); data = None
     if data is not None:
         for t in chunk:
             code = t[:-3]
@@ -76,30 +91,31 @@ for i in range(0, len(tickers), CHUNK):
                 pass
     time.sleep(1.0)
 
-# ---- pass 2: for misses, retry BSE individually, then NSE by symbol ----
+# ---- pass 2: misses -> BSE individually, then override NSE, then sheet-symbol NSE ----
 missing = [c for c in codes if c not in prices]
 print(f"after BSE batch: {len(prices)} priced, retrying {len(missing)}")
 for code in missing:
     v = fetch_one(code + ".BO")
     if v is not None:
-        prices[code] = {"price": v, "src": "BO"}
-    else:
-        sym = sym_of.get(code, "")
-        if sym:
-            v = fetch_one(sym + ".NS")
-            if v is not None:
-                prices[code] = {"price": v, "src": "NS"}
+        prices[code] = {"price": v, "src": "BO"}; time.sleep(0.2); continue
+    ov = NSE_OVERRIDE.get(code)
+    if ov:
+        v = fetch_one(ov + ".NS")
+        if v is not None:
+            prices[code] = {"price": v, "src": "NS"}; time.sleep(0.2); continue
+    sym = sym_of.get(code, "")
+    if sym:
+        v = fetch_one(sym + ".NS")
+        if v is not None:
+            prices[code] = {"price": v, "src": "NS"}
     time.sleep(0.2)
 
 still_missing = sorted(c for c in codes if c not in prices)
 n_ns = sum(1 for c in prices if prices[c]["src"] == "NS")
 result = {
     "lastUpdated": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
-    "count": len(prices),
-    "total": len(codes),
-    "viaNSE": n_ns,
-    "missing": still_missing,
-    "prices": prices,
+    "count": len(prices), "total": len(codes), "viaNSE": n_ns,
+    "missing": still_missing, "prices": prices,
 }
 with open("prices.json", "w", encoding="utf-8") as f:
     json.dump(result, f, separators=(",", ":"))
