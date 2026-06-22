@@ -2141,9 +2141,8 @@ const HOLDINGS = [
 
 /* ---------- price fetching (Yahoo via CORS relay) ---------- */
 const PROXIES = [
+  u => "https://api.codetabs.com/v1/proxy/?quest=" + encodeURIComponent(u),
   u => "https://api.allorigins.win/raw?url=" + encodeURIComponent(u),
-  u => "https://corsproxy.io/?url=" + encodeURIComponent(u),
-  u => "https://thingproxy.freeboard.io/fetch/" + u,
 ];
 const PRICE_CACHE_KEY = "holdings.prices.v1";
 const WORK_KEY = "holdings.work.v1";
@@ -2167,7 +2166,10 @@ async function fetchQuote(code){
   const y = "https://query1.finance.yahoo.com/v8/finance/chart/"+code+".BO?interval=1d&range=1d";
   for(const make of PROXIES){
     try{
-      const r = await fetch(make(y),{cache:"no-store"});
+      const ctl = new AbortController();
+      const to = setTimeout(()=>ctl.abort(), 12000);
+      const r = await fetch(make(y),{cache:"no-store",signal:ctl.signal});
+      clearTimeout(to);
       if(!r.ok) continue;
       const j = await r.json();
       const m = j && j.chart && j.chart.result && j.chart.result[0] && j.chart.result[0].meta;
@@ -2185,7 +2187,8 @@ async function refreshAll(){
   setStatus("live","Updating prices\u2026");
   const codes=[...new Set(work.map(h=>h.code))].filter(c=>/^\d{5,6}$/.test(c)); // skip non-BSE-looking codes
   let done=0, ok=0, fail=0;
-  const CONC=5, queue=codes.slice();
+  const CONC=3, SPACING=300, queue=codes.slice();
+  const sleep=ms=>new Promise(r=>setTimeout(r,ms));
   async function worker(){
     while(queue.length){
       const code=queue.shift();
@@ -2193,7 +2196,8 @@ async function refreshAll(){
       done++;
       if(q){prices[code]=q;ok++;} else {fail++;}
       setStatus("live","Updating prices\u2026 "+done+"/"+codes.length);
-      if(done%6===0) render();
+      if(done%6===0){ saveJSON(PRICE_CACHE_KEY,prices); render(); }
+      await sleep(SPACING);
     }
   }
   await Promise.all(Array.from({length:CONC},worker));
@@ -2201,8 +2205,8 @@ async function refreshAll(){
   saveJSON(PRICE_CACHE_KEY,prices);
   render();
   btn.disabled=false;
-  if(ok===0){setStatus("err","Couldn't reach the price relay. Showing last saved prices \u2014 try Refresh again shortly.");}
-  else if(fail>0){setStatus("live", ok+" updated, "+fail+" unavailable");}
+  if(ok===0){setStatus("err","No prices came through \u2014 the relay may be busy. Wait a minute and tap Refresh again.");}
+  else if(fail>0){setStatus("live", ok+" priced, "+fail+" couldn't be fetched");}
   else {setStatus("live","All prices updated");}
 }
 
