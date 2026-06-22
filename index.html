@@ -242,7 +242,7 @@ let HOLDINGS = [];                 // loaded from holdings.json
 let prices = {};                   // code -> {price}, loaded from prices.json
 let priceMeta = {lastUpdated:null, count:0, total:0};
 let work = [];                     // editable working copy
-let sort = {key:"market", dir:-1};
+let sort = {key:"unreal", dir:1};
 let filter = "";
 let autoTimer = null;
 
@@ -320,10 +320,15 @@ function render(){
 
   const held=items.filter(x=>x.h.qty>0), sold=items.filter(x=>x.h.qty<=0);
   const cmp=(a,b)=>{
-    const k=sort.key; let av,bv;
-    const pick=(x)=>({name:x.h.name.toLowerCase(),qty:x.h.qty,avgCost:x.h.avgCost,price:x.c.price??-Infinity,
-      market:x.c.market??-Infinity,unreal:x.c.unreal??-Infinity,real:x.c.realised,status:x.c.status}[k]);
-    av=pick(a);bv=pick(b);
+    const k=sort.key;
+    // for price-derived sorts, unpriced rows always sink to the bottom (not treated as max loss)
+    if(k==="price"||k==="market"||k==="unreal"){
+      const au=a.c.price==null, bu=b.c.price==null;
+      if(au!==bu) return au?1:-1;
+    }
+    const pick=(x)=>({name:x.h.name.toLowerCase(),qty:x.h.qty,avgCost:x.h.avgCost,price:x.c.price??0,
+      market:x.c.market??0,unreal:x.c.unreal??0,real:x.c.realised,status:x.c.status}[k]);
+    const av=pick(a),bv=pick(b);
     if(av<bv)return -1*sort.dir; if(av>bv)return 1*sort.dir; return 0;
   };
   held.sort(cmp); sold.sort(cmp);
