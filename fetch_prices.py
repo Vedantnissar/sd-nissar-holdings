@@ -91,23 +91,21 @@ for i in range(0, len(tickers), CHUNK):
                 pass
     time.sleep(1.0)
 
-# ---- pass 2: misses -> BSE individually, then override NSE, then sheet-symbol NSE ----
+# ---- pass 2: misses -> try a chain of ticker candidates, first valid wins ----
 missing = [c for c in codes if c not in prices]
 print(f"after BSE batch: {len(prices)} priced, retrying {len(missing)}")
 for code in missing:
-    v = fetch_one(code + ".BO")
-    if v is not None:
-        prices[code] = {"price": v, "src": "BO"}; time.sleep(0.2); continue
     ov = NSE_OVERRIDE.get(code)
-    if ov:
-        v = fetch_one(ov + ".NS")
-        if v is not None:
-            prices[code] = {"price": v, "src": "NS"}; time.sleep(0.2); continue
     sym = sym_of.get(code, "")
-    if sym:
-        v = fetch_one(sym + ".NS")
+    candidates = [(code + ".BO", "BO")]
+    for base in (ov, sym):
+        if base:
+            candidates += [(base + ".NS", "NS"), (base + "-SM.NS", "NS")]  # NSE + NSE-SME
+    for ticker, src in candidates:
+        v = fetch_one(ticker)
         if v is not None:
-            prices[code] = {"price": v, "src": "NS"}
+            prices[code] = {"price": v, "src": src}
+            break
     time.sleep(0.2)
 
 still_missing = sorted(c for c in codes if c not in prices)
